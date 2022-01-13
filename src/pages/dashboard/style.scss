@@ -1,0 +1,38 @@
+.page {
+  .header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .content {
+    height: calc(100vh - 80px);
+    padding: 25px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    .column-container {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      margin: 0 5px;
+      flex: 1;
+      border-radius: 8px;
+      height: 100%;
+      overflow: auto;
+      .title-wrapper {
+        padding-top: 10px;
+        .column-title {
+          font-size: 16px;
+          color: grey;
+        }
+      }
+      .card-container {
+        background: #ffffff;
+        margin: 10px 10px;
+        padding: 20px 20px;
+        border: 1px solid rgb(199, 189, 189);
+        border-radius: 4px;
+      }
+    }
+  }
+}
